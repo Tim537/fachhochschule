@@ -1,7 +1,7 @@
 from pathlib import Path
 from html import escape
 import json
-p=Path('/home/tim/Desktop/fachhochschule/7-semester/sqm/1_übung/praesentation-neu')
+p=Path(__file__).resolve().parent
 source='https://istqb.org/wp-content/uploads/2024/11/ISTQB_CTFL_Syllabus_v4.0.1.pdf'
 slides=[
 ('Warum QS-Zeit?', 'Wo setzen wir unsere knappe QS-Zeit ein?', 'opening', '''<div class="opening-statement"><p class="example-label">Qualitätssicherung (QS) am Beispiel einer Rabattfunktion</p><p class="big-quote">„Ab 100 € gibt es 10 % Rabatt.“</p><p class="opening-answer">Kurz vor der Freigabe fällt auf:<br>Zählen Versandkosten zu den 100 €?</p><p class="opening-consequence"><strong>Die späte Klärung kann Nacharbeit auslösen:</strong><br>Berechnung ändern und erneut prüfen.</p></div>'''),

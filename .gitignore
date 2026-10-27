@@ -1,4 +1,6 @@
-erstes-semester/grundlagen-der-programmierung/projekt/helpers/__pycache__/dbconnection.cpython-310.pyc
+# Python-Caches
+__pycache__/
+*.py[cod]
 
 # Lokale Python-Umgebungen
 .venv/
