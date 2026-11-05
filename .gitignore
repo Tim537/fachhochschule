@@ -4,3 +4,6 @@ __pycache__/
 
 # Lokale Python-Umgebungen
 .venv/
+
+# Lokale IMDb-Datensätze
+/7-semester/ds/3_übung/imdb/
